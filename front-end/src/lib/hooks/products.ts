@@ -5,7 +5,7 @@ import { backendBaseUrl } from '../utils';
 export const productsApi = createApi({
   reducerPath: 'productsApi', // The key to add to the Redux store
   baseQuery: fetchBaseQuery({
-    baseUrl: `${backendBaseUrl}/api/products`,
+    baseUrl: `https://discuss-2jf5.onrender.com/api/products`,
     prepareHeaders: (headers) => {
       // Get the token from sessionStorage
       const token = sessionStorage.getItem("token");

@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(express.json());
 app.use(cors({
-    origin: frontendBaseUrl,  // Replace with your frontend domain
+    origin: "https://discuss-2jf5.onrender.com",  // Replace with your frontend domain
     credentials: true,  // Allow sending cookies
 }));
 

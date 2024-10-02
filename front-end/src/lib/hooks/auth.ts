@@ -6,7 +6,7 @@ console.log("END point", backendBaseUrl)
 // Define the API service
 export const userAuthApi = createApi({
   reducerPath: 'userAuthApi', // The key to add to the Redux store
-  baseQuery: fetchBaseQuery({ baseUrl: `${backendBaseUrl}/auth`, credentials: 'include', }),
+  baseQuery: fetchBaseQuery({ baseUrl: `https://discuss-2jf5.onrender.com/auth`, credentials: 'include', }),
   // Ensures cookies are sent with each request
   endpoints: (builder) => ({
 
