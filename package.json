@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon backend/server.js",
+    "dev": "NODE_ENV=development nodemon backend/server.js",
+    "build":"npm install && npm install --prefix front-end && npm run build --prefix front-end",
+    "start": "NODE_ENV=production node backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
