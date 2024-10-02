@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://api.fontshare.com/v2/css?f[]=satoshi@300,301,400,500,700,900,1&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.dm_sans {
+  font-family: "DM Sans", sans-serif;
+}
+.satoshi {
+  font-family: "Satoshi", sans-serif;
+}
